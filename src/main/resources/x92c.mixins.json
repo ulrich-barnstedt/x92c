@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.x81.x92c.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MovementFixMixin",
+    "MouseAccessor",
+    "MouseMovementFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
